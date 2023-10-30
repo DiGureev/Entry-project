@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Tribute page about Marc Chagall by Diana Gureev">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navigation menu-->
+    <nav>
+        <a href="index.html"><img id="logo" src="logo.png"></a>
+        <ul>
+        <li id="bio"><a href="#biography">Biography</a></li>
+        <li id="pics"><a href="#paintings">Painting</a></li>
+        <li id="see"><a href="#map">Where to see</a></li>
+        <li id="form"><a href="#buy">Buy</a></li>
+        <li id="icons"><a href="#social-media">Contacts</a></li>
+        </ul>
+    </nav>
+    <!--Main container-->
+    <div class="container">
+        <!--First screen of the page-->
+        <header>
+            <h1>Marc Chagall</h1>
+            <p id="quote">“In the arts, as in life, everything is possible provided it is based on love.”</p>
+            <img id="main" src="main-photo.png" alt="Marc Chagall" title="Marc Chagall">
+        </header>
+        <!--Sidebar-->
+        <div class="sidebar">
+            <h3>Upcoming events</h3>
+            <div>
+                <a href=""><h4>Jazz&Wine</h4></a>
+                <p>Your favorite band with a good glass of wine.</p>
+            </div>
+            <div>
+                <a href=""><h4>Art exibition on the roof</h4></a>
+                <p>Please, come with your friends!</p>
+            </div>
+            <div>
+                <a href=""><h4>Biggest book sale ever!</h4></a>
+                <p>All books for just 10 shekels.</p>
+            </div>
+            <div>
+                <a href=""><h4>Great event</h4></a>
+                <p>Something great is about to happen!</p>
+            </div>
+            <div>
+                <a href=""><h4>Breaking news</h4></a>
+                <p>I don't have more thoughts :)</p>
+            </div>
+            </div>
+        <!--Article part with aside tag-->
+        <article id="biography">
+            <h2>Who is Marc Chagall</h2>
+            <img src="marc-photo.jpg" alt="Marc Chagall at home">
+            <p>Marc Chagall (Moishe Shagal) was a Russian-French artist. An early modernist, he was associated with several major artistic styles and created works in a wide range of artistic formats, including painting, drawings, book illustrations, stained glass, stage sets, ceramics, tapestries and fine art prints.</p><br>
+            <p>Chagall was born in 6 July 1887 into a Jewish family near Vitebsk, today in Belarus, but at the time in the Pale of Settlement of the Russian Empire. Before World War I, he travelled between Saint Petersburg, Paris, and Berlin. During this period he created his own mixture and style of modern art based on his ideas of Eastern European and Jewish folklore.</p><br>
+            <aside><p><a href="https://en.wikipedia.org/wiki/Marc_Chagall" target="_blank">More about Marc Chagall on Wiki</a></p></aside>
+            <p>He spent the wartime years in his native Belarus, becoming one of the country's most distinguished artists and a member of the modernist avant-garde, founding the Vitebsk Arts College. He later worked in and near Moscow in difficult conditions in a tough time in Russia, before leaving again for Paris in 1923. During World War II, he escaped occupied France to the United States, where he lived for 7 years in New York City before returning to France in 1948.</p>
+        </article>
+        <!--Gallery part with pics-->
+        <div id="paintings">
+            <h2>The most famous works</h2>
+            <div class="gallery">
+                <img id="first" src="big-circus.png">
+                <img id="second" src="over-vitebsk.png">
+                <img id="third" src="the-fiddler.png">
+                <img id="fourth" src="white-crucifixion.png">
+                <img id="fifth" src="les-amoureux.png">
+            </div>
+        </div>
+        <!--Embeded map-->
+        <div class="map" id="map">
+            <h2>Where to see</h2>
+            <p>Welcome to the Tel Aviv Museum of Art if you want to see the fantastic art of Marc Chagall.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.699350578719!2d34.784253074109685!3d32.077379519414194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4b9b02453fa7%3A0xf74ba430787ab813!2z0KLQtdC70Ywt0JDQstC40LLRgdC60LjQuSDQvNGD0LfQtdC5INC40LfQvtCx0YDQsNC30LjRgtC10LvRjNC90YvRhSDQuNGB0LrRg9GB0YHRgtCy!5e0!3m2!1sru!2sil!4v1688053744778!5m2!1sru!2sil" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!--Form-->
+        <div id="buy">
+            <h2>How to buy</h2>
+            <div class="buy">
+                <p>If you would like to purchase reproductions of the great artist, please contact me using the form on the right.</p>
+                <form>
+                    <input type="text" placeholder="First name" name="First name"><br>
+                    <input type="text" placeholder="Second name" name="Second name"><br>
+                    <input type="email" placeholder="Email" name="Email"><br>
+                    <input type="tel" placeholder="Mobile" name="Mobile"><br>
+                    <input id="button" type="button" value="Send"><br>
+                </form>
+            </div>
+        </div>
+        <!--Social media buttons-->
+        <div id="social-media">
+            <h3>Follow us:</h3>
+            <a href=""><img class="sm" src="insta.png"></a>
+            <a href=""><img class="sm" src="facebook.png"></a>
+            <a href=""><img class="sm" src="whatsapp.png"></a>
+        </div>
+        </div>
+    <footer>
+        <p id="footer">Made with love by Diana Gureev</p>
+    </footer>
+</body>
+</html>
